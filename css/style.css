@@ -434,16 +434,16 @@ button {
 /* about section end */
 
 
-/* cream section start */
+/* sego section start */
 
-.cream_section {
+.sego_section {
     width: 100%;
     float: left;
     padding: 90px 0px 0px 0px;
     position: relative;
 }
 
-.cream_section::after {
+.sego_section::after {
     position: absolute;
     content: '';
     width: 120px;
@@ -454,7 +454,7 @@ button {
     bottom: 80px;
 }
 
-.cream_section::before {
+.sego_section::before {
     position: absolute;
     content: '';
     width: 120px;
@@ -466,7 +466,7 @@ button {
     right: 0px;
 }
 
-.cream_taital {
+.sego_taital {
     width: 67%;
     float: left;
     font-size: 40px;
@@ -474,7 +474,7 @@ button {
     font-weight: bold;
 }
 
-.cream_taital::after {
+.sego_taital::after {
     position: absolute;
     content: '';
     width: 80px;
@@ -485,7 +485,7 @@ button {
     border-radius: 4px;
 }
 
-.cream_text {
+.sego_text {
     width: 100%;
     float: left;
     font-size: 16px;
@@ -493,13 +493,13 @@ button {
     margin: 0px;
 }
 
-.cream_section_2 {
+.sego_section_2 {
     width: 100%;
     float: left;
     padding-top: 30px;
 }
 
-.cream_box {
+.sego_box {
     width: 100%;
     float: left;
     background-image: linear-gradient( 0deg, #ffffff 37%, #f2f2f0 37%);
@@ -508,11 +508,11 @@ button {
     box-shadow: 0px 0px 20px 10px #ededec;
 }
 
-.cream_box:hover {
+.sego_box:hover {
     background-image: linear-gradient( 0deg, #ffffff 37%, #faf0c7 37%);
 }
 
-.cream_img {
+.sego_img {
     width: 100%;
     text-align: center;
     padding-bottom: 20px;
@@ -532,7 +532,7 @@ button {
     font-style: italic;
 }
 
-.strawberry_text {
+.nama_text {
     width: 100%;
     font-size: 22px;
     color: #373736;
@@ -589,7 +589,7 @@ button {
 }
 
 
-/* cream section end */
+/* sego section end */
 
 
 /* services section start */
@@ -740,9 +740,20 @@ button {
 }
 
 .client_img {
-    width: 100%;
-    text-align: center;
+    width: 100%; /* Lebar penuh container */
+    text-align: center; /* Pusatkan konten */
     margin-top: 10px;
+    display: flex; /* Gunakan flexbox */
+    justify-content: center; /* Pusatkan horizontal */
+    align-items: center; /* Pusatkan vertikal (opsional) */
+}
+
+.client_img img {
+    width: 150px; /* Atur ukuran gambar */
+    height: 150px;
+    object-fit: cover; /* Hindari distorsi */
+    border-radius: 50%; /* Bentuk bulat */
+    display: inline-block; /* Pastikan inline untuk text-align */
 }
 
 #main_slider a.carousel-control-next {
