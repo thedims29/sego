@@ -299,7 +299,7 @@ button {
 
 .banner_taital {
     width: 30%;
-    font-size: 60px;
+    font-size: 45px;
     color: #222222;
     font-weight: bold;
 }
@@ -448,7 +448,7 @@ button {
     content: '';
     width: 120px;
     height: 140px;
-    background-image: url(../images/img-6.png);
+    background-image: url(../images/logo.png);
     background-size: 100%;
     background-repeat: no-repeat;
     bottom: 80px;
@@ -459,7 +459,7 @@ button {
     content: '';
     width: 120px;
     height: 140px;
-    background-image: url(../images/img-6.png);
+    background-image: url(../images/logo.png);
     background-size: 100%;
     background-repeat: no-repeat;
     top: 180px;
