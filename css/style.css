@@ -563,6 +563,25 @@ button {
     color: #373736;
 }
 
+.custom-cart-btn {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ffa215;
+    color: #ffa215;
+    padding: 8px 0px;
+    border-radius: 40px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-cart-btn:hover {
+    border: 1px solid #373736;
+    color: #373736;
+}
+
 .seemore_bt {
     width: 180px;
     margin: 0 auto;
